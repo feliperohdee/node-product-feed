@@ -1,0 +1,22 @@
+{
+    "name": "node-product-feed",
+    "version": "1.0.0",
+    "description": "A framework to generate product catalog feed according to Google Merchant Product Data Deed specification and Facebook Business Product Data Catalog Feed.",
+    "main": "index.js",
+    "homepage": "https://github.com/feliperohdee/node-product-feed",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/feliperohdee/node-product-feed.git"
+    },
+    "scripts": {
+        "eslint": "eslint . --ext .js --config node_modules/eslint-config/index.js"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "eslint": "^7.14.0"
+    },
+    "dependencies": {
+        "xmlbuilder": "^15.1.1"
+    }
+}
