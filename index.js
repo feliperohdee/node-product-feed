@@ -1,10 +1,19 @@
-module.exports.Product = require('./lib/product');
-module.exports.ProductPrice = require('./lib/productPrice');
-module.exports.ProductInstallment = require('./lib/productInstallment');
-module.exports.ProductDateRange = require('./lib/productDateRange');
-module.exports.ProductLoyaltyPoints = require('./lib/productLoyaltyPoints');
-module.exports.ProductShipping = require('./lib/productShipping');
-module.exports.ProductTax = require('./lib/productTax');
-module.exports.FeedBuilder = require('./lib/feedBuilder');
+const Product = require('./lib/product');
+const ProductPrice = require('./lib/productPrice');
+const ProductInstallment = require('./lib/productInstallment');
+const ProductDateRange = require('./lib/productDateRange');
+const ProductLoyaltyPoints = require('./lib/productLoyaltyPoints');
+const ProductShipping = require('./lib/productShipping');
+const ProductTax = require('./lib/productTax');
+const FeedBuilder = require('./lib/feedBuilder');
 
-Object.assign(module.exports, require('./lib/units'));
+module.exports = {
+    Product,
+    ProductPrice,
+    ProductInstallment,
+    ProductDateRange,
+    ProductLoyaltyPoints,
+    ProductShipping,
+    ProductTax,
+    FeedBuilder
+};
